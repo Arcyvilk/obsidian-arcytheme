@@ -1,0 +1,67 @@
+.theme-dark {
+  /* Background colours */
+  --background-primary: #080f08;
+  --background-primary-alt: #0e0f0e;
+  --background-secondary: #030303;
+  --background-secondary-alt: #0e0f0e;
+  --background-accent: #000;
+  --background-modifier-border: #172513;
+  --background-modifier-success: #00ca19;
+
+  /* Text colours */
+  --text-accent: #87db91;
+  --text-accent1: #68ac70;
+  --text-accent2: #4d8153;
+  --text-normal: #dedede;
+  --text-muted: #bbb;
+
+  /* Header colours */
+  --text-title-h1: #00fa19;
+  --text-title-h2: #00ea19;
+  --text-title-h3: #00da19;
+  --text-title-h4: #00ca19;
+  --text-title-h5: #00ba19;
+  --text-title-h6: #00aa19;
+
+  /* Interactions */
+  --interactive-normal: #20242b;
+  --interactive-hover: #353b47;
+  --interactive-accent: #00750e;
+  --interactive-accent-rgb: 0, 117, 14;
+  --interactive-accent-hover: #00ca19;
+
+  /* Scrollbar */
+  --scrollbar-active-thumb-bg: #00ca19;
+  --scrollbar-bg: #000000;
+  --scrollbar-thumb-bg: #00750e;
+
+  /* Miscellanous */
+  --panel-border-color: #18191e;
+  --search-match-color: #ffff00;
+  --search-other-match-color: #ff9632;
+  --checkbox-marker-color: #ffffff;
+  --checkbox-border-color: #00ca19;
+  --code-background: #000000;
+  --code-normal: #87db91;
+}
+
+
+.nav-file-title, .nav-folder-title {
+  color: #ccd6cc;
+}
+
+body:not(.is-grabbing) .nav-file-title.is-active:hover, body:not(.is-grabbing) .nav-folder-title.is-active:hover, .nav-file-title.is-active, .nav-folder-title.is-active {
+  color: #ccffcc;
+}
+
+.collapse-icon svg.svg-icon {
+  color: var(--text-accent);
+}
+
+.is-collapsed .collapse-icon svg.svg-icon {
+  color: var(--text-accent2);
+}
+
+.is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left, .is-translucent:not(.is-fullscreen) .workspace-tabs, .is-translucent:not(.is-fullscreen) .workspace-split, .is-translucent:not(.is-fullscreen) .sidebar-toggle-button, .is-translucent:not(.is-fullscreen) .mod-left-split .workspace-tab-header-container, .is-translucent:not(.is-fullscreen) .mod-right-split .workspace-tab-header-container, .is-translucent:not(.is-fullscreen) .mod-top .workspace-tab-header-container, .is-translucent:not(.is-fullscreen) .workspace-tabs .workspace-leaf, .is-translucent:not(.is-fullscreen) .workspace-sidedock-vault-profile, .is-translucent:not(.is-fullscreen) .workspace-ribbon.mod-left:before {
+  background-color: #030303 !important;
+}
