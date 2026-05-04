@@ -79,6 +79,7 @@ body {
   --background-accent: #fff;
   --background-modifier-border: #b8a080;
   --background-modifier-success: #0f2d13;
+  --dropdown-background: var(--background-secondary);
 
   /* Text colours */
   --text-accent: #231e1b;
@@ -103,16 +104,17 @@ body {
   --h6-weight: bold;
 
   /* Interactions */
-  --interactive-normal: #20242b;
-  --interactive-hover: #353b47;
-  --interactive-accent: #3a3a3a;
+  --interactive-normal: #ddd7c2;
+  --interactive-hover: #f0ebe0;
+  --interactive-accent: #ddd7c2;
+  --interactive-accent-hover: #f0ebe0;
   --interactive-accent-rgb: 0, 117, 14;
-  --interactive-accent-hover: #00ca19;
+  --text-on-accent: var(--text-normal);
 
   /* Scrollbar */
-  --scrollbar-active-thumb-bg: #00ca19;
+  --scrollbar-active-thumb-bg: #b8a080;
   --scrollbar-bg: #000000;
-  --scrollbar-thumb-bg: #00750e;
+  --scrollbar-thumb-bg: #8f785a;
 
   /* Miscellanous */
   --panel-border-color: #18191e;
