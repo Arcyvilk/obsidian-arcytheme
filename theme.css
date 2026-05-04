@@ -78,12 +78,19 @@ body {
   --text-muted: #4b4541;
 
   /* Header */
-  --h1-color: #000000;
-  --h2-color: #111111;
-  --h3-color: #222222;
-  --h4-color: #333333;
-  --h5-color: #444444;
-  --h6-color: #555555;
+  --h1-color: #1a120d;
+  --h2-color: #2d2018;
+  --h3-color: #36271f;
+  --h4-color: #41322a;
+  --h5-color: #514138;
+  --h6-color: #635146;
+
+  --h1-weight: bold;
+  --h2-weight: bold;
+  --h3-weight: bold;
+  --h4-weight: bold;
+  --h5-weight: bold;
+  --h6-weight: bold;
 
   /* Interactions */
   --interactive-normal: #20242b;
