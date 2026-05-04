@@ -64,6 +64,10 @@ body {
   --checkbox-border-color: #00ca19;
   --code-background: #000000;
   --code-normal: #87db91;
+
+  /* Custom */
+  --gradient-foreground: #080f0833;
+  --gradient-background: #1b692411;
 }
 
 .theme-light {
@@ -118,6 +122,10 @@ body {
   --checkbox-border-color: #20242b;
   --code-background: #fffcf0;
   --code-normal: #060606;
+
+  /* Custom */
+  --gradient-foreground: #fff9e833;
+  --gradient-background: #67470f11;
 }
 
 .view-header,
@@ -125,7 +133,7 @@ body {
 .workspace-leaf-content,
 .workspace-tab-header.is-active {
   background: 
-  repeating-conic-gradient(#fff9e833 0 0.0001%,#67470f11 0 0.0002%) 
+  repeating-conic-gradient(var(--gradient-foreground) 0 0.0001%, var(--gradient-background) 0 0.0002%) 
   60% 60%/3000px 3000px;
 }
 
